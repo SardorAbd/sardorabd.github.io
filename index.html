@@ -1,138 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-129303777-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129303777-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      gtag("config", "UA-129303777-1");
+    </script>
 
-  gtag('config', 'UA-129303777-1');
-</script>
+    <meta charset="utf-8" />
+    <!-- <base href="/"> -->
 
-	<meta charset="utf-8">
+    <title>Dead Poets Society</title>
+    <meta name="description" content="" />
 
-	<title>Dead Poets Society</title>
-	<meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
 
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Template Basic Images Start -->
+    <meta property="og:image" content="path/to/image.jpg" />
+    <link rel="icon" href="img/favicon/favicon.ico" />
+    <!-- Template Basic Images End -->
 
-	<meta property="og:image" content="path/to/image.jpg">
-	<link rel="icon" href="img/favicon/favicon.ico">
+    <!-- Custom Browsers Color Start -->
+    <meta name="theme-color" content="#000" />
+    <!-- Custom Browsers Color End -->
 
-	<link rel="stylesheet" href="css/fonts.css">
-	<link rel="stylesheet" href="css/fontawesome-all.min.css">
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/baguetteBox.css">
-	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
 
-</head>
+  <body>
+    <header class="about-header">
+      <div class="container">
+        <!-- Navbar -->
+        <nav class="navbar">
+          <!-- Menu -->
+          <ul class="navbar-menu">
+            <li>
+              <a href="./index.html" class="navbar-menu-link active">Home</a>
+            </li>
+            <li>
+              <a href="./gallery.html" class="navbar-menu-link">Gallery</a>
+            </li>
+            <li>
+              <a href="./index.html" class="navbar-brand"
+                ><img src="./img/letter.png" alt=""
+              /></a>
+            </li>
+            <li><a href="./about.html" class="navbar-menu-link">About</a></li>
+            <li>
+              <a href="./contact.html" class="navbar-menu-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
 
-<body>
+        <div class="header-caption">
+          <h1>Welcome back</h1>
+          <p class="quote">
+            <q
+              >"I sit in the dark. And it would be hard to figure out which is
+              worse; the dark inside, or the darkness outside." Joseph
+              Brodskiy</q
+            >
+          </p>
+        </div>
+        <a href="#" class="down"></a>
+      </div>
+    </header>
 
-	<header>
-		<div class="container">
+    <section class="introduction s-2">
+      <div class="container">
+        <h2 class="title">The Best of Poetry Idealogy</h2>
+        <p class="introduction-text">
+          <b
+            >"We don't read and write poetry because it's cute. We read and
+            write poetry because we are members of the human race. And the human
+            race is filled with passion. And medicine, law, business,
+            engineering, these are noble pursuits and necessary to sustain life.
+            But poetry, beauty, romance, love, these are what we stay alive
+            for."</b
+          >
+        </p>
+        <!--Quota taken from the movie called "Dead Poets Society" -->
+      </div>
+    </section>
 
-			<nav class="navbar">
-				<div class="navbar-brand"><a href="./index.html"><img src="./img/logo.png" alt=""></a></div>
-				<ul class="navbar-menu">
-					<li><a href="./index.html" class="navbar-menu-link active">Home</a></li>
-					<li><a href="./works.html" class="navbar-menu-link">Works</a></li>
-					<li><a href="./about.html" class="navbar-menu-link">About</a></li>
-				</ul>
+    <section class="work">
+      <div class="container">
+        <h2 class="title">The Best of Poetry Moments</h2>
+        <div class="row">
+          <!--All next quotes taken from https://www.goodreads.com/quotes/tag/poets -->
+          <div
+            class="col-lg-4 work-box wow fadeInDown"
+            data-wow-duration="1s"
+            data-wow-delay=".25s"
+          >
+            <h4 class="work-name">Robin Williams</h4>
+            <div class="work-text">
+              “Carpe diem.Seize the day, boys. Make your lives extraordinary”
+            </div>
+          </div>
+          <div
+            class="col-lg-4 work-box wow fadeInDown"
+            data-wow-duration="1s"
+            data-wow-delay=".25s"
+          >
+            <h4 class="work-name">Greg Bear</h4>
+            <div class="work-text">
+              “Once, poets were magicians. Poets were strong, stronger than
+              warriors or kings — stronger than old hapless gods. And they will
+              be strong once again.”
+            </div>
+          </div>
+          <div
+            class="col-lg-4 work-box wow fadeInDown"
+            data-wow-duration="1s"
+            data-wow-delay=".25s"
+          >
+            <h4 class="work-name">E.M. Forster</h4>
+            <div class="work-text">
+              “It isn't possible to love and part. You will wish that it was.
+              You can transmute love, ignore it, muddle it, but you can never
+              pull it out of you. I know by experience that the poets are right:
+              love is eternal.”
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="col-lg-4 work-box wow fadeInDown"
+            data-wow-duration="1s"
+            data-wow-delay=".75s"
+          >
+            <h4 class="work-name">Sanober Khan</h4>
+            <div class="work-text">
+              “in a world full of temporary things you are a perpetual feeling.”
+            </div>
+          </div>
+          <div
+            class="col-lg-4 work-box wow fadeInDown"
+            data-wow-duration="1s"
+            data-wow-delay=".75s"
+          >
+            <h4 class="work-name">Soren Kierkegaard</h4>
+            <div class="work-text">
+              “What is a poet? An unhappy man who hides deep anguish in his
+              heart, but whose lips are so formed that when the sigh and cry
+              pass through them, it sounds like lovely music.... And people
+              flock around the poet and say: 'Sing again soon' - that is, 'May
+              new sufferings torment your soul but your lips be fashioned as
+              before, for the cry would only frighten us, but the music, that is
+              blissful.”
+            </div>
+          </div>
+          <div
+            class="col-lg-4 work-box wow fadeInDown"
+            data-wow-duration="1s"
+            data-wow-delay=".75s"
+          >
+            <h4 class="work-name">Plato</h4>
+            <div class="work-text">
+              “Poets utter great and wise things which they do not themselves
+              understand.”
+            </div>
+          </div>
+        </div>
+        <a href="./gallery.html" class="work-btn">View more</a>
+      </div>
+    </section>
 
-			</nav>
+    <div class="section">
+      <img
+        src="./img/Dead-Poets-Society-dead-poets-society-wallpaper.jpg"
+        alt=""
+      />
+    </div>
 
-			<div class="header-caption">
-				<h1>Klaus Heinzerberg</h1>
-				<p class="quote"><q>«...Она олицетворяла искусство <br/>
-				И как любое исскуство, знаменовала собой конец.<br/> 
-				И он пришёл.<br/> 
-				Я здесь...»</q></p>
-			</div>
+    <footer>
+      <div class="container">
+        <div class="logo">
+          <a href="#"><img src="./img/letter.png" alt="logo"/></a>
+        </div>
 
-		</div>
-	</header>
+        <nav>
+          <ul class="footer-menu">
+            <li><a href="./index.html" class="footer-menu-link">Home</a></li>
+            <li>
+              <a href="./gallery.html" class="footer-menu-link">Gallery</a>
+            </li>
+            <li><a href="./about.html" class="footer-menu-link">About</a></li>
+            <li>
+              <a href="./contact.html" class="footer-menu-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
 
-	<section class="introduction s-2">
-		<div class="container">
-			<h2 class="title">The Best of Poetry Idealogy</h2>
-			<img src="./img/sub-title.png" alt="pattern" class="sub-title">
-            <p class="introduction-text"><b>"We don't read and write poetry because it's cute. We read and write poetry because we are members of the human race. And the human race is filled with passion. And medicine, law, business, engineering, these are noble pursuits and necessary to sustain life. But poetry, beauty, romance, love, these are what we stay alive for."</b> </p>
-		<!--Quota taken from the movie called "Dead Poets Society" --> 
-		</div>
-	</section>
+        <div class="social">
+          <a href="https://www.facebook.com/"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="https://www.instagram.com/iamjustawriter"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://www.linkedin.com/"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+        </div>
 
-	<section class="work">
-		<div class="container">
-			<h2 class="title">The Best of Poetry Moments</h2>
-			<img src="./img/sub-title.png" alt="pattern" class="sub-title">
-			<div class="row">
-			<!--All next quotes taken from https://www.goodreads.com/quotes/tag/poets -->
-				<div class="col-lg-4 work-box">
-					<h4 class="work-name">Robin Williams</h4>
-					<div class="work-text">“Carpe diem.Seize the day, boys.
-Make your lives extraordinary” </div>
-				</div>
-				<div class="col-lg-4 work-box">
-					<h4 class="work-name">Greg Bear</h4>
-					<div class="work-text">“Once, poets were magicians. Poets were strong, stronger than warriors or kings — stronger than old hapless gods. And they will be strong once again.” </div>
-				</div>
-				<div class="col-lg-4 work-box">
-					<h4 class="work-name">E.M. Forster</h4>
-					<div class="work-text">“It isn't possible to love and part. You will wish that it was. You can transmute love, ignore it, muddle it, but you can never pull it out of you. I know by experience that the poets are right: love is eternal.” </div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 work-box">
-					<h4 class="work-name">Sanober Khan</h4>
-					<div class="work-text">“in a world full of temporary things you are a perpetual feeling.” </div>
-				</div>
-				<div class="col-lg-4 work-box">
-					<h4 class="work-name">Soren Kierkegaard</h4>
-					<div class="work-text"> “What is a poet? An unhappy man who hides deep anguish in his heart, but whose lips are so formed that when the sigh and cry pass through them, it sounds like lovely music.... And people flock around the poet and say: 'Sing again soon' - that is, 'May new sufferings torment your soul but your lips be fashioned as before, for the cry would only frighten us, but the music, that is blissful.” </div>
-				</div>
-				<div class="col-lg-4 work-box">
-					<h4 class="work-name">Plato</h4>
-					<div class="work-text">“Poets utter great and wise things which they do not themselves understand.” </div>
-				</div>
-			</div>
-			<a href="./works.html" class="work-btn">View more</a>
-		</div>
-	</section>
+        <div class="right">
+          <div>2019 All Right Reserved</div>
+          <div>Abdullaev Sardor &copy;</div>
+        </div>
+      </div>
+    </footer>
 
-	<footer>
-		<div class="container">
-			<div class="logo">
-				<a href="#"><img src="./img/logo.png" alt="logo"></a>
-			</div>
-
-			<nav>
-				<ul class="footer-menu">
-					<li><a href="./index.html" class="footer-menu-link">Home</a></li>
-					<li><a href="./works.html" class="footer-menu-link">Works</a></li>
-					<li><a href="./about.html" class="footer-menu-link">About</a></li>
-				</ul>
-			</nav>
-
-			<div class="social">
-				<a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-				<a href="https://www.instagram.com/iamjustawriter"><i class="fab fa-instagram"></i></a>
-				<a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-				<a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-			</div>
-
-			<div class="right">
-				<div>2018 All Right Reserved</div>
-				<div>Abdullaev Sardor &copy;</div>
-			</div>
-		</div>
-	</footer>
-
-
-</body>
+    <div class="up"><i class="fas fa-arrow-up"></i></div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+  </body>
 </html>
